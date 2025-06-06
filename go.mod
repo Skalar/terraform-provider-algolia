@@ -1,7 +1,8 @@
 module github.com/hashicorp/terraform-provider-algolia
 
-go 1.21
-toolchain go1.22.9
+go 1.22.7
+
+toolchain go1.24.3
 
 require (
 	github.com/algolia/algoliasearch-client-go/v3 v3.31.2
